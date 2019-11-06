@@ -1,0 +1,107 @@
+#my-element {
+    color: red;
+}
+
+#div-ul {
+    background-color: aquamarine;
+    color: brown;
+}
+
+button {
+    color: orchid;
+}
+
+div {
+    color: rgb(0, 204, 255)
+}
+
+#div-2 {
+    border: 1px solid black;
+}
+
+#div-2 p {
+    color: yellowgreen;
+}
+
+h1+p, h2+p {
+    color: red;
+}
+
+.class {
+    background-color: brown;
+}
+
+.class2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#id-class {
+    background-color: green;
+}
+
+#myButton {
+    width: 50px;
+    height: 50px;
+}
+
+#unId {
+    border: 3px solid red;
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+#doiId {
+    border: 3px solid red;
+    background-color: green;
+    padding-bottom: 50px;
+}
+
+#button1 {
+    color: aliceblue;
+    background-color: blue;
+    font-family: 'Gill sans';
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+#button2 {
+    color: orange;
+    background-color: aliceblue;
+    font-family: 'Gill sans';
+}
+
+#button3 {
+    color: green;
+    background-color: yellow;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: underline;
+}
+
+#button4 {
+    color: blue;
+    background-color: aliceblue;
+    border: 3px dashed palevioletred;
+}
+
+div>button {
+    width: 100px;
+    height: 50px;
+    margin: 10px 20px;
+    font-size: 25px;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover {
+    background-color: green;
+}
+
+@media screen and (max-width: 720px) {
+    div {
+        background-color: black;
+    }
+}
+
